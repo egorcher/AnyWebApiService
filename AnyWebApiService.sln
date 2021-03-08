@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationLocationAdapterTests", "VisualizationLocationAdapterTests\VisualizationLocationAdapterTests.csproj", "{4682D153-6B94-422B-BA25-EDDFBB403E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mag.VisualizationLocation.Adapter.Contract", "Mag.VisualizationLocation.Adapter.Contract\Mag.VisualizationLocation.Adapter.Contract.csproj", "{3783EC40-8972-448A-9D33-DB3C392573D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mag.VisualizationLocation.Adapter.Client", "Mag.VisualizationLocation.Adapter.Client\Mag.VisualizationLocation.Adapter.Client.csproj", "{383957C1-F43C-43A2-9020-8814BDF2A494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mag.VisualizationLocation.Adapter.Client.Tests", "Mag.VisualizationLocation.Adapter.Client.Tests\Mag.VisualizationLocation.Adapter.Client.Tests.csproj", "{7EE2EBD4-07DC-4880-BE68-223567761CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEF50E27-902F-45E4-8244-8709D0B537E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mag.VisualizationLocation.Adapter", "Mag.VisualizationLocation.Adapter\Mag.VisualizationLocation.Adapter.csproj", "{88A5EE07-A447-4743-84DC-85531E840D04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4682D153-6B94-422B-BA25-EDDFBB403E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4682D153-6B94-422B-BA25-EDDFBB403E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4682D153-6B94-422B-BA25-EDDFBB403E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4682D153-6B94-422B-BA25-EDDFBB403E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3783EC40-8972-448A-9D33-DB3C392573D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3783EC40-8972-448A-9D33-DB3C392573D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3783EC40-8972-448A-9D33-DB3C392573D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3783EC40-8972-448A-9D33-DB3C392573D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383957C1-F43C-43A2-9020-8814BDF2A494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383957C1-F43C-43A2-9020-8814BDF2A494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383957C1-F43C-43A2-9020-8814BDF2A494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383957C1-F43C-43A2-9020-8814BDF2A494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE2EBD4-07DC-4880-BE68-223567761CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE2EBD4-07DC-4880-BE68-223567761CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE2EBD4-07DC-4880-BE68-223567761CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE2EBD4-07DC-4880-BE68-223567761CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A5EE07-A447-4743-84DC-85531E840D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A5EE07-A447-4743-84DC-85531E840D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A5EE07-A447-4743-84DC-85531E840D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A5EE07-A447-4743-84DC-85531E840D04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4682D153-6B94-422B-BA25-EDDFBB403E6A} = {DEF50E27-902F-45E4-8244-8709D0B537E3}
+		{7EE2EBD4-07DC-4880-BE68-223567761CE0} = {DEF50E27-902F-45E4-8244-8709D0B537E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF652374-6FAF-4A44-825C-BCE41000E14E}
+	EndGlobalSection
+EndGlobal
